@@ -1,33 +1,30 @@
 #set text(font: "IBM Plex Sans")
 #set page(margin: (
-  top: 2.5cm,
-  bottom: 2cm,
-  x: 1.6cm,
+  top: 2cm,
+  bottom: 1cm,
+  x: 1cm,
 ))
 
 #grid(
-  rows: (1fr, 8fr),
-  gutter: 8pt,
+  rows: (1fr, 9fr),
+  gutter: 6pt,
   [
     #set align(center)
     #set text(weight: "bold", size: 24pt)
     #underline[Morgan Nordberg \ ]
     
-    #set text(weight: "regular", size: 12pt)
+    #set text(weight: "regular", size: 11pt)
     *Email*: mnordber01\@gmail.com | *Telefon*: +358 4573445201 | *adress*: Björnskärrsgatan 9B 
   ],
   [
   #grid(
-    columns: (6fr, 3fr),
+    columns: (6fr, 4fr),
     gutter: 8pt,
     inset: 8pt,
     [ 
-      #set text(size: 12pt)
-      = Profil
-      TODO: Skriv profil
+      #set text(size: 11pt)
 
       = Arbetslivserfarenhet
-      TODO: Skriv kort intro
 
       == Mindroad AB, Linköping  
       #text(gray)[Juni 2024 - Augusti 2024]
@@ -49,15 +46,29 @@
 
       === Projekt: Mobila och sociala applikationer (TDDD80)
       #text(gray)[Januari 2023 - Maj 2023]
-      \ Projektkurs där de studerande bygger en Android applikation i Java, med en tillhörande _backend_ och SQL databas i Python & PostreSQL.  
+      \ Projektkurs där de studerande bygger en Android applikation i Java, med en tillhörande _backend_ och databas i Python & PostreSQL.  
+    
+      == Övrig erfarenhet
+      === Lagerarbete i livsmedelsbutik
+      #text(gray)[Juni 2020 - Augusti 2022]
+      \ Sommarjobbade på färskavdelningen på Sparhallen, Mariehamn.
+
+      ===  Säsongsarbete på jordbruk 
+      #text(gray)[Juni 2016 - Augusti 2019]
+      \ Sommarjobbade med grönsaksodlarna Anki & Leif Kalm, Jomala.
+
     ], grid.vline(),
     [
-      #set text(size: 12pt)
+      #set text(size: 11pt)
       = Utbildning
       == Civilingenjör i Mjukvaruteknik
       #text(gray)[Augusti 2021 - Nuvarande] \
-      En datateknologisk utbildning med fokus på mjukvara 
+      En datateknologisk utbildning med fokus på mjukvara, och master profil intriktad på algoritmisk problemlösning
 
+      == Naturvetenskapliga programmet, Ålands Lyceum
+      #text(gray)[Augusti 2017 - Juni 2021]
+      
+      
       = Kompetenser
       - C/C++
       - Rust
@@ -68,16 +79,34 @@
       - SQL
       - Prolog
       - Matlab
+      - Linux
+      - Svenska
+      - Engelska
     
       = Mjuka kompetenser
-      - Flexibel
       - Social
       - Kommunikativ
+      - Flexibel
       - Nyfiken
 
       = Övrigt engagemang
       - Ordförande för programmerings föreningen LiTHe Kod, verksamhetsåret 2024-2025
       - Ideelt engagerad vid Ryds Herrgård
+      
+//      = Länkar
+//      - #link("https://www.linkedin.com/in/morgan-nordberg-31457522b/")[
+//      LinkedIn: \
+//      ]
+//      #link("https://www.linkedin.com/in/morgan-nordberg-31457522b/")
+//      - #link("https://github.com/the-JS-hater")[
+//      Github: \
+//      ]
+//      #link("https://github.com/the-JS-hater")
+
+      = Intressen
+      - Schack
+      - Styrketräning
+      - Musik
     ]
   )
   ]
