@@ -6,16 +6,16 @@
 ))
 
 #grid(
-  rows: (1fr, 10fr),
-  gutter: 5pt,
+  rows: (1fr, 9fr),
+  gutter: 6pt,
   [
     #set align(center)
     #set text(weight: "bold", size: 24pt)
     #underline[Morgan Nordberg \ ]
     
     #set text(weight: "regular", size: 11pt)
-    *Email*: mnordberg01\@gmail.com | *Telefon*: +358 4573445201 | *Adress*: Björnskärrsgatan 9B 
-  ], grid.hline(),
+    *Email*: mnordber01\@gmail.com | *Telefon*: +358 4573445201 | *Adress*: Björnskärrsgatan 9B 
+  ],
   [
   #grid(
     columns: (6fr, 4fr),
@@ -31,7 +31,7 @@
       \ Sommarjobb där jag hjälpte till med att utforma kursmaterial för en utbildning i React Native. Utöver detta hade jag även som uppgift att felsöka ett cmake byggskript för ett tidigare utfört examensarbete på företaget.
 
       == Kurs assistent vid Linköpings universitet
-      Under min studietid har jag jobbat deltid som kursassietent inom ett flertal kurser. Arbetsuppgifter har inkluderat att handleda laborations tillfällen, agera seminariehandledare, samt granska och bedöma inlämningsuppgifter och projekt. 
+      Under min studietid har jag arbetat deltid som kursassietent inom en rad olika kurser. Arbetsuppgifter har inkluderat att handleda laborations tillfällen, agera seminariehandledare, samt granska och bedöma inlämningsuppgifter och projekt. 
 
       === Funktionell och imperativ programmering, del 1 & 2 (TDDE23/24) 
       #text(gray)[Augusti 2024 - Januari 2025]
