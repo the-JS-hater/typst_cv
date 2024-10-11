@@ -8,6 +8,7 @@
 #grid(
   rows: (1fr, 10fr),
   gutter: 5pt,
+  inset: 6pt,
   [
     #set align(center)
     #set text(weight: "bold", size: 24pt)
@@ -78,6 +79,7 @@
       - Python
       - SQL
       - Prolog
+      - Haskell
       - Matlab
       - Linux
       - Svenska
