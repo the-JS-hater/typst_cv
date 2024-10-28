@@ -31,7 +31,7 @@
       #text(gray)[Juni 2024 - Augusti 2024]
       \ Sommarjobb där jag hjälpte till med att utforma kursmaterial för en utbildning i React Native. Utöver detta hade jag även som uppgift att felsöka ett cmake byggskript för ett tidigare utfört examensarbete på företaget.
 
-      == Kurs assistent vid Linköpings universitet
+      == Kursassistent vid Linköpings universitet
       Under min studietid har jag jobbat deltid som kursassietent inom ett flertal kurser. Arbetsuppgifter har inkluderat att handleda laborations tillfällen, agera seminariehandledare, samt granska och bedöma inlämningsuppgifter och projekt. 
 
       === Funktionell och imperativ programmering, del 1 & 2 (TDDE23/24) 
@@ -58,41 +58,54 @@
       #text(gray)[Juni 2016 - Augusti 2019]
       \ Sommarjobbade med grönsaksodlarna Anki & Leif Kalm, Jomala.
 
-    ], grid.vline(),
+    ], 
+    
+    grid.vline(),
+    
     [
       #set text(size: 11pt)
       = Utbildning
       == Civilingenjör i Mjukvaruteknik
       #text(gray)[Augusti 2021 - Nuvarande] \
-      En datateknologisk utbildning med fokus på mjukvara, och master profil intriktad på algoritmisk problemlösning
 
       == Naturvetenskapliga programmet, Ålands Lyceum
       #text(gray)[Augusti 2017 - Juni 2021]
       
-      
+      // = Urvalda kuser
+      // - Datastrukturer & algoritmer
+      // - Logikprogrammering
       = Kompetenser
+      == Programmering
       - C/C++
-      - Rust
-      - Java
-      - Javascript/Typescript
-      - React Native
       - Python
+      - Java
+      - Javascript/TypeScript
+      - React Native
       - SQL
-      - Prolog
+      - Rust
       - Haskell
+      - Prolog
       - Matlab
       - Linux
-      - Svenska
-      - Engelska
+// NOTE: possible way to save space at the cost of style
     
-      = Mjuka kompetenser
+//      C, C++, Rust, Java, Javascript/Typescript, React Native, Python, SQL, Prolog, Haskell, Matlab, Linux
+    
+      == Mjuka kompetenser
       - Social
       - Kommunikativ
-      - Nyfiken
+      - Pedagogisk
       - Flexibel
+      - Nyfiken 
+      
+    == Språk
+      - Svenska 
+      - Engelska
+        
+      // Svenska, Engelska
 
       = Övrigt engagemang
-      - Ordförande för programmerings föreningen LiTHe Kod, verksamhetsåret 2024-2025
+      - Ordförande för LiTHe Kod, verksamhetsåret 2024-2025
       - Ideelt engagerad vid Ryds Herrgård
       
 //      = Länkar
@@ -106,6 +119,7 @@
 //      #link("https://github.com/the-JS-hater")
 
       = Intressen
+      // Schack | Styrketräning | Musik
       - Schack
       - Styrketräning
       - Musik
