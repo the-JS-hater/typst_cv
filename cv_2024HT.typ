@@ -9,10 +9,10 @@
   box(inset: (left: 6pt))[
     #let offset = 0.5em
     #let radius = 0.15em
-    === #h(-offset) #box({
+    === #h(-offset)#box({
       circle(radius: radius, fill: black)
       v(0.2em)
-    }) #h(offset - radius * 2)#title
+    })#h(offset - radius * 2)#title
     #text(gray)[#date] \
     #body
   ]
