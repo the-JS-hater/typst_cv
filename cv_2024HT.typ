@@ -4,11 +4,24 @@
   bottom: 1cm,
   x: 1cm,
 ))
+//#show heading.where(level: 3): set text(fill: black.lighten(28%))
+#let course_section(title, date, body) = {
+  box(inset: (left: 6pt))[
+    #let offset = 0.5em
+    #let radius = 0.15em
+    === #h(-offset) #box({
+      circle(radius: radius, fill: black)
+      v(0.2em)
+    }) #h(offset - radius * 2)#title
+    #text(gray)[#date] \
+    #body
+  ]
+}
+
 
 #grid(
   rows: (1fr, 10fr),
   gutter: 5pt,
-  inset: 6pt,
   [
     #set align(center)
     #set text(weight: "bold", size: 24pt)
@@ -23,7 +36,8 @@
     gutter: 8pt,
     inset: 8pt,
     [ 
-      #set text(size: 11pt)
+      #v(6pt)
+      #set text(size: 12pt)
 
       = Arbetslivserfarenhet
 
@@ -33,36 +47,59 @@
 
       == Kursassistent vid Linköpings universitet
       Under min studietid har jag jobbat deltid som kursassietent inom ett flertal kurser. Arbetsuppgifter har inkluderat att handleda laborations tillfällen, agera seminariehandledare, samt granska och bedöma inlämningsuppgifter och projekt. 
+    #course_section(
+      [Funktionell och imperativ programmering, del 1 & 2],
+      [Augusti 2024 - Januari 2025],
+      [Grundkurs i Python med utgångspunkt i de imperativa och funktionella paradigmerna.]
+    )
+    #course_section(
+      [Objektorienterad programmering och Java],
+      [Januari 2024 - Maj 2024],
+      [Grundkurs i Java och objekt orienterad programmering.],
+    )
+    #course_section(
+      [Funktionell och imperativ programmering, del 1 & 2],
+      [Augusti 2023 - Januari 2024],
+      [],
+    )
+    #course_section(
+      [Projekt: Mobila och sociala applikationer],
+      [Januari 2023 - Maj 2023],
+      [Projektkurs där de studerande bygger en Android applikation i Java, med en tillhörande _backend_ och databas i Python & PostreSQL.],
+    )
 
-      === Funktionell och imperativ programmering, del 1 & 2 (TDDE23/24) 
-      #text(gray)[Augusti 2024 - Januari 2025]
-      \ Grundkurs i Python med utgångspunkt i de imperativa och funktionella paradigmerna.   
-
-      === Objektorienterad programmering och Java (TDDE30)
-      #text(gray)[Januari 2024 - Maj 2024]
-      \ Grundkurs i Java och objekt orienterad programmering.
-
-      === Funktionell och imperativ programmering, del 1 & 2 (TDDE23/24) 
-      #text(gray)[Augusti 2023 - Januari 2024]
-
-      === Projekt: Mobila och sociala applikationer (TDDD80)
-      #text(gray)[Januari 2023 - Maj 2023]
-      \ Projektkurs där de studerande bygger en Android applikation i Java, med en tillhörande _backend_ och databas i Python & PostreSQL.  
-    
-      == Övrig erfarenhet
-      === Lagerarbete i livsmedelsbutik
-      #text(gray)[Juni 2020 - Augusti 2022]
-      \ Sommarjobbade på färskavdelningen på Sparhallen, Mariehamn.
-
-      ===  Säsongsarbete på jordbruk 
-      #text(gray)[Juni 2016 - Augusti 2019]
-      \ Sommarjobbade med grönsaksodlarna Anki & Leif Kalm, Jomala.
+    // - Funktionell och imperativ programmering, del 1 & 2 (TDDE23/24)
+      // - Objektorienterad programmering och Java (TDDE30)
+      // - Projekt: Mobila och sociala applikationer (TDDD80)
+// 
+//       === Funktionell och imperativ programmering, del 1 & 2 (TDDE23/24) 
+//       #text(gray)[Augusti 2024 - Januari 2025]
+//       \ Grundkurs i Python med utgångspunkt i de imperativa och funktionella paradigmerna.   
+// 
+//       === Objektorienterad programmering och Java (TDDE30)
+//       #text(gray)[Januari 2024 - Maj 2024]
+//       \ Grundkurs i Java och objekt orienterad programmering.
+// 
+//       === Funktionell och imperativ programmering, del 1 & 2 (TDDE23/24) 
+//       #text(gray)[Augusti 2023 - Januari 2024]
+// 
+//       === Projekt: Mobila och sociala applikationer (TDDD80)
+//       #text(gray)[Januari 2023 - Maj 2023]
+//       \ Projektkurs där de studerande bygger en Android applikation i Java, med en tillhörande _backend_ och databas i Python & PostreSQL.  
+//     
+       == Övrig erfarenhet
+       === Lagerarbete i livsmedelsbutik
+       #text(gray)[Juni 2020 - Augusti 2022]
+       \ Sommarjobbade på färskavdelningen på Sparhallen, Mariehamn.
+ 
+       ===  Säsongsarbete på jordbruk 
+       #text(gray)[Juni 2016 - Augusti 2019]
+       \ Sommarjobbade med grönsaksodlarna Anki & Leif Kalm, Jomala.
 
     ], 
-    
     grid.vline(),
-    
     [
+      #v(6pt)
       #set text(size: 11pt)
       = Utbildning
       == Civilingenjör i Mjukvaruteknik
@@ -70,7 +107,6 @@
 
       == Naturvetenskapliga programmet, Ålands Lyceum
       #text(gray)[Augusti 2017 - Juni 2021]
-      
       // = Urvalda kuser
       // - Datastrukturer & algoritmer
       // - Logikprogrammering
