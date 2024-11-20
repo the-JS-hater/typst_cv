@@ -4,7 +4,7 @@
   bottom: 1cm,
   x: 1cm,
 ))
-
+#show link: underline 
 
 //#show heading.where(level: 3): set text(fill: black.lighten(28%))
 #let sub_work_item(title, date, body) = {
@@ -45,19 +45,19 @@
 
       == Mindroad AB, Linköping  
       #text(gray)[Juni 2024 - Augusti 2024]
-      \ Sommarjobb där jag hjälpte till att utforma kursmaterialet för en utbildning i React Native. Utöver detta hade jag även som uppgift att felsöka ett cmake byggskript för ett tidigare utfört examensarbete hos företaget
+      \ Sommarjobb där jag hjälpte till att utforma kursmaterialet för en utbildning i React Native. Utöver detta hade jag även som uppgift att felsöka ett cmake-byggskript för ett tidigare utfört examensarbete hos företaget.
 
       == Ammanuens vid Linköpings universitet
-      Under min studietid har jag jobbat deltid som kursassistent inom ett flertal kurser. Arbetsuppgifter har inkluderat att handleda laborationstillfällen, agera seminariehandledare, samt granska och bedöma inlämningsuppgifter och projekt 
+      Under min studietid har jag jobbat deltid som kursassistent inom ett flertal kurser. Arbetsuppgifter har inkluderat att handleda laborationstillfällen, agera seminariehandledare, samt granska och bedöma inlämningsuppgifter och projekt.
     #sub_work_item(
       [Funktionell och imperativ programmering, del 1 & 2],
       [Augusti 2024 - Januari 2025],
-      [Grundkurs i Python med utgångspunkt i de imperativa och funktionella paradigmerna]
+      [Grundkurs i Python med utgångspunkt i de imperativa och funktionella paradigmerna.]
     )
     #sub_work_item(
       [Objektorienterad programmering och Java],
       [Januari 2024 - Maj 2024],
-      [Grundkurs i Java och objektorienterad programmering],
+      [Grundkurs i Java och objektorienterad programmering.],
     )
     #sub_work_item(
       [Funktionell och imperativ programmering, del 1 & 2],
@@ -67,7 +67,7 @@
     #sub_work_item(
       [Projekt: Mobila och sociala applikationer],
       [Januari 2023 - Maj 2023],
-      [Projektkurs där de studerande bygger en Android applikation i Java, med en tillhörande _backend_ och databas i Python & PostreSQL],
+      [Projektkurs där de studerande bygger en Android-applikation i Java, med en tillhörande _backend_ och databas i Python & PostreSQL.],
     )
 
     // - Funktionell och imperativ programmering, del 1 & 2 (TDDE23/24)
@@ -96,7 +96,7 @@
       [Sommarjobbade på färskavdelningen på Sparhallen, Mariehamn.],
     )
     #sub_work_item(
-      [Säsongsarbete på jordbruk  ],
+      [Säsongsarbete på jordbruk],
       [Juni 2016 - Augusti 2019],
       [Sommarjobbade med grönsaksodlarna Anki & Leif Kalm, Jomala.],
     )
@@ -113,12 +113,12 @@
       [Ordförande, LiTHe Kod],
       //[Verksamhetsåret 2024-2025],
       [Juli 2024 - Nuvarande],
-      [LiTHe Kod är en studentförening för att främja hobby- & tävlingsprogrammering vid Linköpings universitet],
+      [LiTHe Kod är en studentförening för att främja hobby- & tävlingsprogrammering vid Linköpings universitet.],
     )  
     #sub_work_item(
-      [Ideel arbetare, Ryds Herrgård],
+      [Ideell arbetare, Ryds Herrgård],
       [Februari 2023 - Nuvarande],
-      [Ryds Herrgård, HG, är ett kårhus som bedriver studentpub och har lokal för studieplatser under dagtid],
+      [Ryds Herrgård, HG, är ett kårhus som bedriver studentpub och har lokal för studieplatser under dagtid.],
     )  
     ], 
     grid.vline(),
@@ -132,7 +132,7 @@
       == Naturvetenskapliga programmet, Ålands Lyceum
       #text(gray)[Augusti 2017 - Juni 2021]
       #v(-6pt)
-      = Urvalda kuser
+      = Urvalda kurser
       - Datastrukturer & algoritmer
       - Kompilatorkonstruktion
       - Processprogrammering & operativsystem
@@ -173,9 +173,9 @@
       - Engelska
 
       #v(-6pt)
-      = Hobby projekt
-      - #link("https://github.com/the-JS-hater/CHIP-8")[Chip-8 emulator, C/C++]
-      - #link("https://github.com/the-JS-hater/RustRaytracer")[Raytracer, Rust]
+      = Hobbyprojekt
+      - #link("https://github.com/the-JS-hater/CHIP-8")[#text(blue)[Chip-8 emulator]], C/C++
+      - #link("https://github.com/the-JS-hater/RustRaytracer")[#text(blue)[Raytracer]], Rust
      // - Chip-8 emulator, C/C++
      // - Raytracer, Rust
 
