@@ -49,6 +49,7 @@
 
       == Ammanuens vid Linköpings universitet
       Under min studietid har jag jobbat deltid som kursassistent inom ett flertal kurser. Arbetsuppgifter har inkluderat att handleda laborationstillfällen, agera seminariehandledare, samt granska och bedöma inlämningsuppgifter och projekt.
+    #v(1pt)
     #sub_work_item(
       [Funktionell och imperativ programmering, del 1 & 2],
       [Augusti 2024 - Januari 2025],
@@ -89,7 +90,7 @@
 //       #text(gray)[Januari 2023 - Maj 2023]
 //       \ Projektkurs där de studerande bygger en Android applikation i Java, med en tillhörande _backend_ och databas i Python & PostreSQL.  
 //     
-    == Övrig erfarenhet
+    == Övriga erfarenheter
     #sub_work_item(
       [Lagerarbete i livsmedelsbutik],
       [Juni 2020 - Augusti 2022],
