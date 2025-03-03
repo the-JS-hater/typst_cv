@@ -15,7 +15,7 @@
       circle(radius: radius, fill: black)
       v(0.2em)
     })#h(offset - radius * 2)#title
-    #text(gray)[#date] \
+    #text(luma(120))[#date] \
     #body
   ]
 }
@@ -44,10 +44,10 @@
       = Arbetslivserfarenheter
 
       == Mindroad AB, Linköping  
-      #text(gray)[Juni 2024 - Augusti 2024]
+      #text(luma(120))[Juni 2024 - Augusti 2024]
       \ Sommarjobb där jag hjälpte till att utforma kursmaterialet för en utbildning i React Native. Utöver detta hade jag även som uppgift att felsöka ett cmake-byggskript för ett tidigare utfört examensarbete hos företaget.
 
-      == Ammanuens vid Linköpings universitet
+      == Amanuens vid Linköpings universitet
       Under min studietid har jag jobbat deltid som kursassistent inom ett flertal kurser. Arbetsuppgifter har inkluderat att handleda laborationstillfällen, agera seminariehandledare, samt granska och bedöma inlämningsuppgifter och projekt.
     #v(1pt)
     #sub_work_item(
@@ -76,18 +76,18 @@
       // - Projekt: Mobila och sociala applikationer (TDDD80)
 // 
 //       === Funktionell och imperativ programmering, del 1 & 2 (TDDE23/24) 
-//       #text(gray)[Augusti 2024 - Januari 2025]
+//       #text(luma(120))[Augusti 2024 - Januari 2025]
 //       \ Grundkurs i Python med utgångspunkt i de imperativa och funktionella paradigmerna.   
 // 
 //       === Objektorienterad programmering och Java (TDDE30)
-//       #text(gray)[Januari 2024 - Maj 2024]
+//       #text(luma(120))[Januari 2024 - Maj 2024]
 //       \ Grundkurs i Java och objekt orienterad programmering.
 // 
 //       === Funktionell och imperativ programmering, del 1 & 2 (TDDE23/24) 
-//       #text(gray)[Augusti 2023 - Januari 2024]
+//       #text(luma(120))[Augusti 2023 - Januari 2024]
 // 
 //       === Projekt: Mobila och sociala applikationer (TDDD80)
-//       #text(gray)[Januari 2023 - Maj 2023]
+//       #text(luma(120))[Januari 2023 - Maj 2023]
 //       \ Projektkurs där de studerande bygger en Android applikation i Java, med en tillhörande _backend_ och databas i Python & PostreSQL.  
 //     
     == Övriga erfarenheter
@@ -102,11 +102,11 @@
       [Sommarjobbade med grönsaksodlarna Anki & Leif Kalm, Jomala.],
     )
     //   === Lagerarbete i livsmedelsbutik
-    //   #text(gray)[Juni 2020 - Augusti 2022]
+    //   #text(luma(120))[Juni 2020 - Augusti 2022]
     //   \ Sommarjobbade på färskavdelningen på Sparhallen, Mariehamn.
  
     //   ===  Säsongsarbete på jordbruk 
-    //   #text(gray)[Juni 2016 - Augusti 2019]
+    //   #text(luma(120))[Juni 2016 - Augusti 2019]
     //   \ Sommarjobbade med grönsaksodlarna Anki & Leif Kalm, Jomala.
 
     == Övrigt engagemang
@@ -128,10 +128,10 @@
       #set text(size: 11pt)
       = Utbildning
       == Civilingenjör i Mjukvaruteknik, LiU
-      #text(gray)[Augusti 2021 - Nuvarande] \
+      #text(luma(120))[Augusti 2021 - Nuvarande] \
       #v(-6pt)
       == Naturvetenskapliga programmet, Ålands Lyceum
-      #text(gray)[Augusti 2017 - Juni 2021]
+      #text(luma(120))[Augusti 2017 - Juni 2021]
       #v(-6pt)
       = Urvalda kurser
       - Datastrukturer & algoritmer

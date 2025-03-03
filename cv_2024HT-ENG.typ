@@ -44,7 +44,7 @@
       #text(gray)[June 2024 - August 2024] \
 
 Summer job where I assisted in designing the course material for a React Native course. In addition to this, I was also tasked with debugging a CMake build script for a previous thesis project at the company.
-      == Ammanuens at Linköping University
+      == Assistant at Linköping University
 During my studies, I worked part-time as a teaching assistant for several courses. My responsibilities included supervising lab sessions, acting as a seminar instructor, and reviewing and assessing assignments and projects.  
 
     #v(1pt)
